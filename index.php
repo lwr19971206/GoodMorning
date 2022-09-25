@@ -4,7 +4,7 @@ header('Access-Control-Allow-Origin:*');
 $config = array(
     'APP_ID' => 'appID',
     'APP_SECRET' => 'appsecret',
-    'TEMPLATE_ID' => '默认模板ID',
+    'TEMPLATE_ID' => 'QCMouws8XCPRXt8ftBzdhB2o650JKmgLGn2Ac1Syh3c',
     'user' => array(
         array(
             'name' => '001',
@@ -13,7 +13,7 @@ $config = array(
             'city' => '合肥',
             'birthday_1' => '06-17',
             'birthday_2' => '12-06',
-            'TEMPLATE_ID' => '早安呀的模板ID',
+            'TEMPLATE_ID' => 'QCMouws8XCPRXt8ftBzdhB2o650JKmgLGn2Ac1Syh3c',
         )
     ),
     'MASTER_ID' => 'lwr19971206',
