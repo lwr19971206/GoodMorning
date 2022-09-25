@@ -31,7 +31,8 @@ foreach ($config['user'] as $k => $v){
     $temp = getWeather($v['city'])['temp'] . '℃';
     $tempRange = getWeather($v['city'])['low'] . '℃~' . getWeather($v['city'])['high'] . '℃';
     $loveDay = getLoveDay($v['date']);
-    $birthdayDay = getBirthday($v['birthday']);
+    $birthdayDay_1 = getBirthday($v['birthday_1']);
+    $birthdayDay_2 = getBirthday($v['birthday_2']);
     $rainbow = getRainbow();
 
     $data = array(
