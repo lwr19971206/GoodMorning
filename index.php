@@ -8,14 +8,15 @@ $config = array(
     'user' => array(
         array(
             'name' => '001',
-            'id' => '被推送人的微信号',
-            'date' => '2017-01-01',
-            'city' => '潍坊',
-            'birthday' => '05-20',
+            'id' => '-Nina-H',
+            'date' => '2022-08-28',
+            'city' => '合肥',
+            'birthday_1' => '06-17',
+            'birthday_2' => '12-06',
             'TEMPLATE_ID' => '早安呀的模板ID',
         )
     ),
-    'MASTER_ID' => '主人的微信号',
+    'MASTER_ID' => 'lwr19971206',
     'MASTER_TEMPLATE_ID' => '推送提醒的模板ID',
 );
 
