@@ -17,7 +17,7 @@ $config = array(
         )
     ),
     'MASTER_ID' => 'lwr19971206',
-    'MASTER_TEMPLATE_ID' => '推送提醒的模板ID',
+    'MASTER_TEMPLATE_ID' => 'Kdc-fwEpCFYVydXZzRDpr_0esIvA0NdEZcgg0pKIN5c',
 );
 
 $getToken = json_decode(GET("https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=". $config['APP_ID'] ."&secret=". $config['APP_SECRET']), true)['access_token'];
