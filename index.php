@@ -54,7 +54,10 @@ foreach ($config['user'] as $k => $v){
                 'color' => getRandomColor(),
             ),
             'birthDay' => array(
-                'value' => $birthdayDay,
+                'value' => $birthdayDay_1,
+                'color' => getRandomColor(),
+            'preDay'=> array(
+                'value' => $birthdayDay_2,
                 'color' => getRandomColor(),
             ),
             'rainbow' => array(
