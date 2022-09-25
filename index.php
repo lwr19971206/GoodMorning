@@ -2,8 +2,8 @@
 header('Access-Control-Allow-Origin:*');
 
 $config = array(
-    'APP_ID' => 'appID',
-    'APP_SECRET' => 'appsecret',
+    'APP_ID' => 'wx9e6b51416c7b5669',
+    'APP_SECRET' => 'e39ae293a9b52c9173104d1418cbbc4b',
     'TEMPLATE_ID' => 'QCMouws8XCPRXt8ftBzdhB2o650JKmgLGn2Ac1Syh3c',
     'user' => array(
         array(
